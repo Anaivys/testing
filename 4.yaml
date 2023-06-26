@@ -1,0 +1,4 @@
+modules:
+  cloud:
+    browser-open: start  # auto-open browser on test start/end/both/none
+    test: testing 3 Taurus Ejercicio 8

@@ -1,0 +1,6 @@
+scenarios:
+  opencart:
+    requests:
+      - url: https://opencart.abstracta.us
+        label: home
+        method: GET

@@ -1,0 +1,13 @@
+scenarios:
+  opencart:
+    requests:
+      - url: https://opencart.abstracta.us/index.php?route=checkout/cart/add
+        label: buy_product
+        method: POST
+        body:
+          product_id: 40
+          quantity: 2
+          assert:
+            - contains:
+                - success
+              assume-success: false

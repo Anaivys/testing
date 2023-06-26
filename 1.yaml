@@ -1,0 +1,14 @@
+execution:
+ - executor: jmeter
+#   distributed:
+#   - 192.168.40.206
+#   - 192.168.40.207
+   concurrency: 
+     local: 5
+     cloud: 15
+   ramp-up: 120s
+   hold-for: 3m
+   scenario: opencart
+   locations:
+     us-west-1: 1
+# provisioning: cloud
