@@ -4,9 +4,9 @@ execution:
 #   - 192.168.40.206
 #   - 192.168.40.207
    concurrency: 
-     local: 3
+     local: 4
 #    cloud: 15
-   ramp-up: 20s
+   ramp-up: 120s
    hold-for: 2m
    scenario: opencart
 #  locations:
