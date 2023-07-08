@@ -13,10 +13,10 @@ execution:
 #    us-west-1: 1
 # provisioning: cloud
 reporting:
-  - module: junit-xml
+ - module: junit-xml
    filename: report.xml
    data-source: pass-fail
-  - module: blazemeter
+ - module: blazemeter
    test: actividad9
  modules:
   blazemeter:
