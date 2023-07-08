@@ -18,6 +18,6 @@ reporting:
    data-source: pass-fail
  - module: blazemeter
    test: actividad9
- modules:
+modules:
   blazemeter:
     token: 4b44d5af897c455052ef789a:b21a6282adaadeb71d8f62b19d09f02ae397925b0667a64310b63269000ec9d0dcbb66d7
